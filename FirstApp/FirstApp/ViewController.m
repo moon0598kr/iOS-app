@@ -27,10 +27,8 @@
 }
 
 - (void)iOS:(NSNotification *)notif {
-    NSString *object = [[notif userInfo] objectForKey:@"iOS"];
-    [_textView2 setText: _textField.text];
-    
-    
+    NSString *object = [[notif userInfo] objectForKey:@"txt"];
+    [_textView2 setText: object];
 }
 
 - (IBAction)buttonTouch:(id)sender {
