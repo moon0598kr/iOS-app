@@ -6,13 +6,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebKit/WebKit.h>
 
 @interface ViewController : UIViewController
 - (IBAction)btnpressed:(UIButton *)sender;
 - (IBAction)buttonTouch:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
+@property (weak, nonatomic) IBOutlet WKWebView *webView;
+
+
+- (IBAction)textField2:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *textView2;
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 @property (weak, nonatomic) IBOutlet UITextView *textView;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;

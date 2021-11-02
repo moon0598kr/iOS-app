@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		44B6F351272EE75300A9FC3B /* Tree 1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 44B6F34F272EE75200A9FC3B /* Tree 1.pdf */; };
 		44B6F352272EE75300A9FC3B /* Tree 0.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 44B6F350272EE75300A9FC3B /* Tree 0.pdf */; };
+		44E6155F272FE3EF00096C86 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E6155E272FE3EF00096C86 /* WebKit.framework */; };
+		44E61562272FEF0900096C86 /* InputTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E61561272FEF0900096C86 /* InputTextViewController.m */; };
 		44FA27A2272BA92900503066 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA27A1272BA92900503066 /* AppDelegate.m */; };
 		44FA27A5272BA92900503066 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA27A4272BA92900503066 /* SceneDelegate.m */; };
 		44FA27A8272BA92900503066 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FA27A7272BA92900503066 /* ViewController.m */; };
@@ -41,6 +43,9 @@
 /* Begin PBXFileReference section */
 		44B6F34F272EE75200A9FC3B /* Tree 1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Tree 1.pdf"; path = "../../../../Downloads/Student/2 - Introduction to UIKit/Guided Project - Apple Pie/resources/Tree 1.pdf"; sourceTree = "<group>"; };
 		44B6F350272EE75300A9FC3B /* Tree 0.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "Tree 0.pdf"; path = "../../../../Downloads/Student/2 - Introduction to UIKit/Guided Project - Apple Pie/resources/Tree 0.pdf"; sourceTree = "<group>"; };
+		44E6155E272FE3EF00096C86 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		44E61560272FEF0900096C86 /* InputTextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputTextViewController.h; sourceTree = "<group>"; };
+		44E61561272FEF0900096C86 /* InputTextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputTextViewController.m; sourceTree = "<group>"; };
 		44FA279D272BA92900503066 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FA27A0272BA92900503066 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44FA27A1272BA92900503066 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E6155F272FE3EF00096C86 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44E6155D272FE3EF00096C86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E6155E272FE3EF00096C86 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44FA2794272BA92900503066 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +106,7 @@
 				44FA27BB272BA92A00503066 /* FirstAppTests */,
 				44FA27C5272BA92A00503066 /* FirstAppUITests */,
 				44FA279E272BA92900503066 /* Products */,
+				44E6155D272FE3EF00096C86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +136,8 @@
 				44FA27AE272BA92A00503066 /* LaunchScreen.storyboard */,
 				44FA27B1272BA92A00503066 /* Info.plist */,
 				44FA27B2272BA92A00503066 /* main.m */,
+				44E61560272FEF0900096C86 /* InputTextViewController.h */,
+				44E61561272FEF0900096C86 /* InputTextViewController.m */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -277,6 +294,7 @@
 				44FA27A8272BA92900503066 /* ViewController.m in Sources */,
 				44FA27A2272BA92900503066 /* AppDelegate.m in Sources */,
 				44FA27B3272BA92A00503066 /* main.m in Sources */,
+				44E61562272FEF0900096C86 /* InputTextViewController.m in Sources */,
 				44FA27A5272BA92900503066 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
