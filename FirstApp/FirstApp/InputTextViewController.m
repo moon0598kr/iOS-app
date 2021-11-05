@@ -15,9 +15,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [NSNotificationCenter.defaultCenter addObserver:self
+                                           selector:@selector(keyboardWillHide:)
+                                               name:UIKeyboardDidHideNotification
+                                             object:self.view.window];
+    
+    [NSNotificationCenter.defaultCenter addObserver:self
+                                           selector:@selector(keyboardWillShow:)
+                                               name:UIKeyboardDidShowNotification
+                                             object:self.view.window];
   
 }
+- (void)keyboardWillHide:(NSNotification *)notif {
+ //   self.view.window.y = 0;
+}
 
+- (void)keyboardWillShow:(NSNotification *)notif {
+ //   self.view.frame.origin.y = -150;
+}
+- (IBAction)TextField:(id)sender {
+    
+}
 
 
 - (IBAction)onClickbtn:(id)sender {
