@@ -15,8 +15,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *emailLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *cellImageLabel;
-@property (weak, nonatomic) IBOutlet UIImageView *callIcon;
-@property (weak, nonatomic) IBOutlet UIImageView *videoIcon;
+@property (weak, nonatomic) IBOutlet UIButton *callIcon;
+- (IBAction)callIconPressed:(UIButton *)sender;
+
+
+@property (weak, nonatomic) IBOutlet UIButton *videoIcon;
+- (IBAction)videoIconPressed:(UIButton *)sender;
+
+
 
 @end
 

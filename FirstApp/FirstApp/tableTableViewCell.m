@@ -16,8 +16,20 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+    
 
     // Configure the view for the selected state
+}
+
+- (IBAction)callIconPressed:(UIButton *)sender {
+    NSURL *callAppURL = [NSURL URLWithString:@"tel://010-8837-6487"];
+    [[UIApplication sharedApplication] openURL:callAppURL];
+    
+}
+- (IBAction)videoIconPressed:(UIButton *)sender {
+    NSURL *youtubeURL = [NSURL URLWithString:@"https://www.youtube.com"];
+    [[UIApplication sharedApplication] openURL:youtubeURL];
+    
 }
 
 @end

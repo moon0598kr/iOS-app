@@ -22,21 +22,31 @@
 //초기화 NSArray
     array = [NSArray arrayWithObjects:
              @{
-                 @"txt1" : @"jin",
-                 @"txt2" : @"01071834672",
+                 @"txt1" : @"010-8837-6487",
+                 @"txt2" : @"서울특별시 강남구 테헤란로14길 5",
+                 @"txt3" : @"moon0798kr@gmail.com"
              },
              @{
                  @"txt1" : @"김태형",
                  @"txt2" : @"0456",
+                 @"txt3" : @"moon0798kr@gmail.com"
              },
              @{
                  @"txt1" : @"이태형",
                  @"txt2" : @"123",
+                 @"txt3" : @"moon0798kr@gmail.com"
              },
              @{
                  @"txt1" : @"박태형",
                  @"txt2" : @"013",
+                 @"txt3" : @"moon0798kr@gmail.com"
              }, nil ];
+    
+   /*  tapGR = UITapGestureRecognizer(target: self, action: #selector(self.imageTapped))
+                    imageView.addGestureRecognizer(tapGR)
+                    imageView.isUserInteractionEnabled = true*/
+    
+    
 
 }
 
@@ -48,8 +58,12 @@
     tableTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"cell"];
     NSString *object1 = [array[indexPath.row]objectForKey:@"txt1"];
     NSString *object2 = [array[indexPath.row]objectForKey:@"txt2"];
-    [cell.addressLabel setText: object1];
-    [cell.numLabel setText: object2];
+    NSString *object3 = [array[indexPath.row]objectForKey:@"txt3"];
+    [cell.numLabel setText: object1];
+    [cell.addressLabel setText: object2];
+    [cell.emailLabel setText: object3];
+    [cell.nameLabel setText:@"김태형"];
+//    [cell.]
 //    []
     return cell;
     //사용
@@ -61,9 +75,8 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 77.7;
+    return 150.0;
 }
-- (void)tableV
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSString *object1 = [array[indexPath.row]objectForKey:@"txt1"];
