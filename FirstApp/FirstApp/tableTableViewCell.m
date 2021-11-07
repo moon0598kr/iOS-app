@@ -20,6 +20,7 @@
 
     // Configure the view for the selected state
 }
+#pragma call icon과 video icon 눌렸을 때 URL
 
 - (IBAction)callIconPressed:(UIButton *)sender {
     NSURL *callAppURL = [NSURL URLWithString:@"tel://010-8837-6487"];
