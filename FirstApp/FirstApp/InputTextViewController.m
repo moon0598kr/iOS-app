@@ -16,6 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSLog(@"who am i : %@", self.name);
+    
     [NSNotificationCenter.defaultCenter addObserver:self
                                            selector:@selector(keyboardWillHide:)
                                                name:UIKeyboardDidHideNotification

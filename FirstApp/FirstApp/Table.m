@@ -24,23 +24,29 @@
              @{
                  @"txt1" : @"010-8837-6487",
                  @"txt2" : @"서울특별시 강남구 테헤란로14길 5",
-                 @"txt3" : @"moon0798kr@gmail.com"
+                 @"txt3" : @"moon0798kr@gmail.com",
+                 @"url" : @"https://shopping-phinf.pstatic.net/main_2406263/24062637318.20200906210926.jpg?type=f640"
              },
              @{
                  @"txt1" : @"김태형",
                  @"txt2" : @"0456",
-                 @"txt3" : @"moon0798kr@gmail.com"
+                 @"txt3" : @"moon0798kr@gmail.com",
+                 @"url" : @"https://shopping-phinf.pstatic.net/main_2407151/24071512006.20200907184601.jpg?type=f640"
              },
              @{
                  @"txt1" : @"이태형",
                  @"txt2" : @"123",
-                 @"txt3" : @"moon0798kr@gmail.com"
+                 @"txt3" : @"moon0798kr@gmail.com",
+                 @"url" : @"https://shopping-phinf.pstatic.net/main_2403050/24030506372.20200903215106.jpg?type=f640"
              },
              @{
                  @"txt1" : @"박태형",
                  @"txt2" : @"013",
-                 @"txt3" : @"moon0798kr@gmail.com"
+                 @"txt3" : @"moon0798kr@gmail.com",
+                 @"url" : @"https://shopping-phinf.pstatic.net/main_2794445/27944457757.20210710234839.jpg?type=f640"
              }, nil ];
+    
+    
     
    /*  tapGR = UITapGestureRecognizer(target: self, action: #selector(self.imageTapped))
                     imageView.addGestureRecognizer(tapGR)
@@ -59,10 +65,15 @@
     NSString *object1 = [array[indexPath.row]objectForKey:@"txt1"];
     NSString *object2 = [array[indexPath.row]objectForKey:@"txt2"];
     NSString *object3 = [array[indexPath.row]objectForKey:@"txt3"];
+    NSString *object4 = [array[indexPath.row]objectForKey:@"url"];
     [cell.numLabel setText: object1];
     [cell.addressLabel setText: object2];
     [cell.emailLabel setText: object3];
     [cell.nameLabel setText:@"김태형"];
+    NSURL *url = [NSURL URLWithString:object4];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    UIImage *img = [[UIImage alloc] initWithData:data];
+    [cell.cellImageLabel setImage:img];
 //    [cell.]
 //    []
     return cell;

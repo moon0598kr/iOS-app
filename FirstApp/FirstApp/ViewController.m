@@ -6,6 +6,9 @@
 //
 
 #import "ViewController.h"
+#import "InputTextViewController.h"
+#import "C.h"
+#import "D.h"
 
 @interface ViewController ()
 
@@ -45,17 +48,26 @@
     [_textView setText:[_textField text]];
 }
 
-- (IBAction)switchTouch:(id)sender {
-    if([_switchButton isOn]){
-        [_imageView setAlpha:1.0f];
-    }
-    else{
-        [_imageView setAlpha:0.0f];
-    }
-}
 - (IBAction)textFIeld:(id)sender {
 }
 - (IBAction)textField2:(id)sender {
    
 }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([segue.identifier isEqualToString:@"gotoB"]) {
+        InputTextViewController *conteroller = (InputTextViewController*)segue.destinationViewController;
+        conteroller.name = @"asdfsdf";
+    }
+    else if ([segue.identifier isEqualToString:@"gotoC"]) {
+        C *controller = (C*)segue.destinationViewController;
+        controller.nickname = @"별명";
+    }
+    else if ([segue.identifier isEqualToString:@"gotoD"]) {
+        D *controller = (D*)segue.destinationViewController;
+        controller.hyeong = @"형";
+    }
+}
+
 @end
+
