@@ -138,7 +138,7 @@
                                 <rect key="frame" x="15" y="519" width="384" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="soI-NA-QEf">
-                                        <rect key="frame" x="0.0" y="0.0" width="123.5" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="91" height="60"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="B button">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
@@ -149,7 +149,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmd-Oy-6dl">
-                                        <rect key="frame" x="130.5" y="0.0" width="123" height="60"/>
+                                        <rect key="frame" x="98" y="0.0" width="90.5" height="60"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="CButon"/>
                                         <connections>
@@ -157,11 +157,19 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZk-Ze-SHM">
-                                        <rect key="frame" x="260.5" y="0.0" width="123.5" height="60"/>
+                                        <rect key="frame" x="195.5" y="0.0" width="91" height="60"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="DButton"/>
                                         <connections>
                                             <segue destination="Qsx-Ns-djH" kind="show" identifier="gotoD" id="0Rf-f3-Dqa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cC5-HY-DN3">
+                                        <rect key="frame" x="293.5" y="0.0" width="90.5" height="60"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="EButton"/>
+                                        <connections>
+                                            <segue destination="dr1-Xa-Iig" kind="show" id="py3-98-hM2"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -459,7 +467,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GXy-So-ofo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-917" y="824"/>
+            <point key="canvasLocation" x="-1636" y="808"/>
         </scene>
         <!--D Page-->
         <scene sceneID="Hbx-hX-Zct">
@@ -509,7 +517,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aev-3S-qT1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-128" y="824"/>
+            <point key="canvasLocation" x="-890" y="808"/>
+        </scene>
+        <!--E Page-->
+        <scene sceneID="cPn-7R-A4d">
+            <objects>
+                <viewController id="dr1-Xa-Iig" customClass="E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ANr-Th-Vpe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Erh-bJ-Vto">
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTL-bC-7X8">
+                                        <rect key="frame" x="186.5" y="553.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="VTL-bC-7X8" firstAttribute="centerX" secondItem="Erh-bJ-Vto" secondAttribute="centerX" id="KVh-dj-e1l"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4lh-bn-YhV"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4lh-bn-YhV" firstAttribute="bottom" secondItem="VTL-bC-7X8" secondAttribute="bottom" constant="200" id="8iv-P3-EQ5"/>
+                            <constraint firstItem="4lh-bn-YhV" firstAttribute="bottom" secondItem="Erh-bJ-Vto" secondAttribute="bottom" id="9xp-42-rI4"/>
+                            <constraint firstItem="4lh-bn-YhV" firstAttribute="trailing" secondItem="Erh-bJ-Vto" secondAttribute="trailing" id="BVx-gF-86A"/>
+                            <constraint firstItem="Erh-bJ-Vto" firstAttribute="leading" secondItem="4lh-bn-YhV" secondAttribute="leading" id="lFY-tR-Hh2"/>
+                            <constraint firstItem="Erh-bJ-Vto" firstAttribute="top" secondItem="4lh-bn-YhV" secondAttribute="top" id="u65-9p-QTD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="E Page" id="WTz-r4-fso"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="VTL-bC-7X8" id="g96-o9-AG4"/>
+                        <outlet property="scanRectView" destination="Erh-bJ-Vto" id="Evx-vY-GP1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WP8-l1-Y7x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-171.01449275362319" y="807.58928571428567"/>
         </scene>
         <!--Image Viewer-->
         <scene sceneID="8Vg-5Q-3GT">

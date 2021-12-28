@@ -23,7 +23,7 @@
     array = [NSArray arrayWithObjects:
              @{
                  @"txt1" : @"010-8837-6487",
-                 @"txt2" : @"서울특별시 강남구 테헤란로14길 5",
+                 @"txtd2" : @"서울특별시 강남구 테헤란로14길 5",
                  @"txt3" : @"moon0798kr@gmail.com",
                  @"url" : @"https://shopping-phinf.pstatic.net/main_2406263/24062637318.20200906210926.jpg?type=f640"
              },

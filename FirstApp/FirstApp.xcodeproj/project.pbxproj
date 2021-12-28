@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		44108AD3273A41C8003DB8AB /* ImageViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44108AD2273A41C8003DB8AB /* ImageViewer.m */; };
+		4438B82B274354590061D389 /* E.m in Sources */ = {isa = PBXBuildFile; fileRef = 4438B82A274354590061D389 /* E.m */; };
+		4438B82D274367B30061D389 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4438B82C274367B20061D389 /* Default-568h@2x.png */; };
 		444BE8B92738B156001FC1CF /* LoadingPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 444BE8B82738B156001FC1CF /* LoadingPage.m */; };
 		444BE8BD2738B414001FC1CF /* Order.png in Resources */ = {isa = PBXBuildFile; fileRef = 444BE8BC2738B414001FC1CF /* Order.png */; };
 		444BE8C02738BF4A001FC1CF /* C.m in Sources */ = {isa = PBXBuildFile; fileRef = 444BE8BF2738BF4A001FC1CF /* C.m */; };
@@ -33,6 +35,9 @@
 		365C1068FB6B3D0F5BE1E0E8 /* Pods_FirstApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44108AD1273A41C8003DB8AB /* ImageViewer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewer.h; sourceTree = "<group>"; };
 		44108AD2273A41C8003DB8AB /* ImageViewer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewer.m; sourceTree = "<group>"; };
+		4438B829274354590061D389 /* E.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = E.h; sourceTree = "<group>"; };
+		4438B82A274354590061D389 /* E.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = E.m; sourceTree = "<group>"; };
+		4438B82C274367B20061D389 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		444BE8B72738B156001FC1CF /* LoadingPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoadingPage.h; sourceTree = "<group>"; };
 		444BE8B82738B156001FC1CF /* LoadingPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingPage.m; sourceTree = "<group>"; };
 		444BE8BC2738B414001FC1CF /* Order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Order.png; sourceTree = "<group>"; };
@@ -145,6 +150,9 @@
 				444BE8C527391962001FC1CF /* CCVC.m */,
 				44108AD1273A41C8003DB8AB /* ImageViewer.h */,
 				44108AD2273A41C8003DB8AB /* ImageViewer.m */,
+				4438B829274354590061D389 /* E.h */,
+				4438B82A274354590061D389 /* E.m */,
+				4438B82C274367B20061D389 /* Default-568h@2x.png */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -172,7 +180,6 @@
 				4D55E9D21B2C894650A75783 /* Pods-FirstApp.debug.xcconfig */,
 				C07A45943F1EA6FA71F87E5B /* Pods-FirstApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -240,6 +247,7 @@
 				444BE8BD2738B414001FC1CF /* Order.png in Resources */,
 				44FA27AD272BA92A00503066 /* Assets.xcassets in Resources */,
 				44FA27AB272BA92900503066 /* Main.storyboard in Resources */,
+				4438B82D274367B30061D389 /* Default-568h@2x.png in Resources */,
 				44B6F351272EE75300A9FC3B /* Tree 1.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +311,7 @@
 				44E61562272FEF0900096C86 /* InputTextViewController.m in Sources */,
 				447D9BE3273289B300A3203C /* tableTableViewCell.m in Sources */,
 				444BE8C32738C1AB001FC1CF /* D.m in Sources */,
+				4438B82B274354590061D389 /* E.m in Sources */,
 				44FA27A5272BA92900503066 /* SceneDelegate.m in Sources */,
 				444BE8C627391962001FC1CF /* CCVC.m in Sources */,
 			);
@@ -479,7 +488,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W2TQ6HFG67;
+				DEVELOPMENT_TEAM = 5J792DUSV8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FirstApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
