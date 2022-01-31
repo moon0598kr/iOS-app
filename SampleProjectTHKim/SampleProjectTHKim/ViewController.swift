@@ -17,13 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         goToSignup.layer.cornerRadius = 5
         loginButton.layer.cornerRadius = 5
-        
-        
-
-
     }
     
     
