@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4472DFFA27C4D3C4004CB268 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472DFF827C4D3C4004CB268 /* MainViewController.swift */; };
+		4472DFFB27C4D3C4004CB268 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4472DFF927C4D3C4004CB268 /* MainViewController.xib */; };
+		44CD9B7C27D3D05700C0D549 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44CD9B7B27D3D05700C0D549 /* GoogleService-Info.plist */; };
 		44D1896627BCF45600472E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1896527BCF45600472E92 /* AppDelegate.swift */; };
 		44D1896827BCF45600472E92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1896727BCF45600472E92 /* SceneDelegate.swift */; };
 		44D1896A27BCF45600472E92 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D1896927BCF45600472E92 /* LoginViewController.swift */; };
@@ -14,9 +17,13 @@
 		44D1897027BCF45600472E92 /* DanguStarGoram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44D1896E27BCF45600472E92 /* DanguStarGoram.xcdatamodeld */; };
 		44D1897227BCF45800472E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D1897127BCF45800472E92 /* Assets.xcassets */; };
 		44D1897527BCF45800472E92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D1897327BCF45800472E92 /* LaunchScreen.storyboard */; };
+		C9EB16FA0222BE9983C52524 /* Pods_DanguStarGoram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C78DE47F7488E2B4252068F6 /* Pods_DanguStarGoram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4472DFF827C4D3C4004CB268 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4472DFF927C4D3C4004CB268 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		44CD9B7B27D3D05700C0D549 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		44D1896227BCF45600472E92 /* DanguStarGoram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanguStarGoram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D1896527BCF45600472E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D1896727BCF45600472E92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,9 @@
 		44D1897127BCF45800472E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44D1897427BCF45800472E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44D1897627BCF45800472E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D25BBBC97D2E83768F41F77 /* Pods-DanguStarGoram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanguStarGoram.release.xcconfig"; path = "Target Support Files/Pods-DanguStarGoram/Pods-DanguStarGoram.release.xcconfig"; sourceTree = "<group>"; };
+		B1967DFBDF596A995A35A364 /* Pods-DanguStarGoram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DanguStarGoram.debug.xcconfig"; path = "Target Support Files/Pods-DanguStarGoram/Pods-DanguStarGoram.debug.xcconfig"; sourceTree = "<group>"; };
+		C78DE47F7488E2B4252068F6 /* Pods_DanguStarGoram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DanguStarGoram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9EB16FA0222BE9983C52524 /* Pods_DanguStarGoram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				44D1896427BCF45600472E92 /* DanguStarGoram */,
 				44D1896327BCF45600472E92 /* Products */,
+				D81644E3D367A10CC46EEF6D /* Pods */,
+				FA040BDDBEC38862D2894E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +79,29 @@
 				44D1897327BCF45800472E92 /* LaunchScreen.storyboard */,
 				44D1897627BCF45800472E92 /* Info.plist */,
 				44D1896E27BCF45600472E92 /* DanguStarGoram.xcdatamodeld */,
+				4472DFF827C4D3C4004CB268 /* MainViewController.swift */,
+				4472DFF927C4D3C4004CB268 /* MainViewController.xib */,
+				44CD9B7B27D3D05700C0D549 /* GoogleService-Info.plist */,
 			);
 			path = DanguStarGoram;
+			sourceTree = "<group>";
+		};
+		D81644E3D367A10CC46EEF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1967DFBDF596A995A35A364 /* Pods-DanguStarGoram.debug.xcconfig */,
+				8D25BBBC97D2E83768F41F77 /* Pods-DanguStarGoram.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA040BDDBEC38862D2894E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C78DE47F7488E2B4252068F6 /* Pods_DanguStarGoram.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44D1897927BCF45800472E92 /* Build configuration list for PBXNativeTarget "DanguStarGoram" */;
 			buildPhases = (
+				88D6FE8B9D87C5E56D0E263A /* [CP] Check Pods Manifest.lock */,
 				44D1895E27BCF45600472E92 /* Sources */,
 				44D1895F27BCF45600472E92 /* Frameworks */,
 				44D1896027BCF45600472E92 /* Resources */,
+				BEBE05AF6617CB161B537589 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,11 +166,55 @@
 			files = (
 				44D1897527BCF45800472E92 /* LaunchScreen.storyboard in Resources */,
 				44D1897227BCF45800472E92 /* Assets.xcassets in Resources */,
+				44CD9B7C27D3D05700C0D549 /* GoogleService-Info.plist in Resources */,
 				44D1896D27BCF45600472E92 /* Main.storyboard in Resources */,
+				4472DFFB27C4D3C4004CB268 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		88D6FE8B9D87C5E56D0E263A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DanguStarGoram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEBE05AF6617CB161B537589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DanguStarGoram/Pods-DanguStarGoram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DanguStarGoram/Pods-DanguStarGoram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DanguStarGoram/Pods-DanguStarGoram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44D1895E27BCF45600472E92 /* Sources */ = {
@@ -145,6 +225,7 @@
 				44D1896627BCF45600472E92 /* AppDelegate.swift in Sources */,
 				44D1897027BCF45600472E92 /* DanguStarGoram.xcdatamodeld in Sources */,
 				44D1896827BCF45600472E92 /* SceneDelegate.swift in Sources */,
+				4472DFFA27C4D3C4004CB268 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +369,7 @@
 		};
 		44D1897A27BCF45800472E92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1967DFBDF596A995A35A364 /* Pods-DanguStarGoram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +399,7 @@
 		};
 		44D1897B27BCF45800472E92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D25BBBC97D2E83768F41F77 /* Pods-DanguStarGoram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,6 +413,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
