@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Y8-er-VKT">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="zJa-oI-NkX">
+            <objects>
+                <viewController id="5Y8-er-VKT" customClass="MainViewController" customModule="AT_T" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ntz-r4-N1V">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="t5b-cV-PUt">
+                                <rect key="frame" x="0.0" y="47" width="390" height="126"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="126" id="UYh-XL-MZL"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="84y-pZ-8Yj">
+                                <rect key="frame" x="0.0" y="173" width="390" height="577"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5N-Ku-0lM">
+                                <rect key="frame" x="122" y="594" width="146" height="146"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="146" id="46v-pw-Ygy"/>
+                                    <constraint firstAttribute="height" constant="146" id="JyU-v8-Cch"/>
+                                </constraints>
+                                <state key="normal" image="ic_ptt_voice_blue"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cah-nN-kas">
+                                <rect key="frame" x="0.0" y="750" width="390" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="SlH-lC-RUY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fwf-Ov-M6h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fwf-Ov-M6h" firstAttribute="trailing" secondItem="84y-pZ-8Yj" secondAttribute="trailing" id="A3A-Xy-08G"/>
+                            <constraint firstItem="t5b-cV-PUt" firstAttribute="leading" secondItem="Fwf-Ov-M6h" secondAttribute="leading" id="AO3-cv-4Rk"/>
+                            <constraint firstItem="84y-pZ-8Yj" firstAttribute="leading" secondItem="Fwf-Ov-M6h" secondAttribute="leading" id="Bcm-6r-dDk"/>
+                            <constraint firstItem="Fwf-Ov-M6h" firstAttribute="trailing" secondItem="cah-nN-kas" secondAttribute="trailing" id="CYR-Y7-opG"/>
+                            <constraint firstItem="84y-pZ-8Yj" firstAttribute="top" secondItem="t5b-cV-PUt" secondAttribute="bottom" id="JCK-WB-atd"/>
+                            <constraint firstItem="cah-nN-kas" firstAttribute="top" secondItem="i5N-Ku-0lM" secondAttribute="bottom" constant="10" id="N7c-Pj-bEK"/>
+                            <constraint firstItem="i5N-Ku-0lM" firstAttribute="centerX" secondItem="Fwf-Ov-M6h" secondAttribute="centerX" id="OHu-75-xy0"/>
+                            <constraint firstItem="cah-nN-kas" firstAttribute="top" secondItem="84y-pZ-8Yj" secondAttribute="bottom" id="Wy4-Vx-qrg"/>
+                            <constraint firstItem="cah-nN-kas" firstAttribute="leading" secondItem="Fwf-Ov-M6h" secondAttribute="leading" id="fIh-dH-I7W"/>
+                            <constraint firstItem="t5b-cV-PUt" firstAttribute="trailing" secondItem="Fwf-Ov-M6h" secondAttribute="trailing" id="m3J-5x-pxR"/>
+                            <constraint firstItem="t5b-cV-PUt" firstAttribute="top" secondItem="Fwf-Ov-M6h" secondAttribute="top" id="w8I-Tw-bOd"/>
+                            <constraint firstItem="Fwf-Ov-M6h" firstAttribute="bottom" secondItem="cah-nN-kas" secondAttribute="bottom" id="ywG-u7-41B"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainStatusBarView" destination="t5b-cV-PUt" id="Aum-Bk-cIJ"/>
+                        <outlet property="mainTabBarView" destination="cah-nN-kas" id="N7I-tZ-YRq"/>
+                        <outlet property="mainView" destination="84y-pZ-8Yj" id="2QU-ca-kw2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSh-CP-k0I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="-53"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_ptt_voice_blue" width="146" height="146"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

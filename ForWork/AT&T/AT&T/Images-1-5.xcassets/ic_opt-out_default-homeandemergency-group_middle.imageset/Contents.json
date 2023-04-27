@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_opt-out_default-homeandemergency-group_middle.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ic_opt-out_default-homeandemergency-group_middle@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ic_opt-out_default-homeandemergency-group_middle@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
