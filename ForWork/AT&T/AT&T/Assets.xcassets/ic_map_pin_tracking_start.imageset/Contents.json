@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "locationLocationIconPinIcMapPinPupleS.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "locationLocationIconPinIcMapPinPupleS@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "locationLocationIconPinIcMapPinPupleS@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

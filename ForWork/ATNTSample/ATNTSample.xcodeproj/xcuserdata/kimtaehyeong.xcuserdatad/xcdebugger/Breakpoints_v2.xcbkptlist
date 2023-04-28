@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "748DD7F1-A66E-4E06-AD41-0C9C1A794762"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B888C81-9411-4AFE-84BF-D4C9975558B5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ATNTSample/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3B888C81-9411-4AFE-84BF-D4C9975558B5 - c9ee98ec22d585e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATNTSample.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ATNTSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimtaehyeong/ATNTSample/ATNTSample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "3B888C81-9411-4AFE-84BF-D4C9975558B5 - c9ee98ec22d58bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATNTSample.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ATNTSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimtaehyeong/ATNTSample/ATNTSample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "3B888C81-9411-4AFE-84BF-D4C9975558B5 - c9ee98ec22d5871"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ATNTSample.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "ATNTSample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kimtaehyeong/ATNTSample/ATNTSample/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

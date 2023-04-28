@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecentsViewController">
+            <connections>
+                <outlet property="_contraintWidthPttButton" destination="Cvm-9R-rUD" id="KPs-IB-Icg"/>
+                <outlet property="buttonMainPTT" destination="z2J-Ym-EPb" id="9tf-Hi-vUM"/>
+                <outlet property="contraintHeightPttButton" destination="wfx-TD-T6E" id="X9a-G3-xtx"/>
+                <outlet property="noCallHistory" destination="g83-Jf-7gR" id="acy-Dv-XpW"/>
+                <outlet property="tableView" destination="Ubg-d1-z0a" id="IWZ-Xb-HpP"/>
+                <outlet property="view" destination="Cdu-Fo-vDx" id="4ja-eu-YUh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Cdu-Fo-vDx" customClass="RecentsView" customModule="AT_T" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="Ubg-d1-z0a">
+                    <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g83-Jf-7gR">
+                    <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There is no recents." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SPd-MO-9an">
+                            <rect key="frame" x="0.0" y="396.5" width="414" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.38431372549999998" green="0.38431372549999998" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.043137254901960784" green="0.043137254901960784" blue="0.043137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="SPd-MO-9an" secondAttribute="trailing" id="1sH-Mx-es9"/>
+                        <constraint firstItem="SPd-MO-9an" firstAttribute="leading" secondItem="g83-Jf-7gR" secondAttribute="leading" id="JGs-aD-jHa"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2J-Ym-EPb">
+                    <rect key="frame" x="134" y="715" width="146" height="146"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="146" id="Cvm-9R-rUD"/>
+                        <constraint firstAttribute="height" constant="146" id="wfx-TD-T6E"/>
+                    </constraints>
+                    <state key="normal" image="ic_ptt_voice_blue"/>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="wQa-Qv-G3u"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="SPd-MO-9an" firstAttribute="centerY" secondItem="wQa-Qv-G3u" secondAttribute="centerY" id="0nW-ce-BFa"/>
+                <constraint firstItem="z2J-Ym-EPb" firstAttribute="centerX" secondItem="Cdu-Fo-vDx" secondAttribute="centerX" id="3GS-Hf-bnk"/>
+                <constraint firstItem="wQa-Qv-G3u" firstAttribute="bottom" secondItem="z2J-Ym-EPb" secondAttribute="bottom" constant="1" id="UQT-E9-GYT"/>
+                <constraint firstItem="wQa-Qv-G3u" firstAttribute="bottom" secondItem="g83-Jf-7gR" secondAttribute="bottom" id="Z9y-kI-UYi"/>
+                <constraint firstItem="g83-Jf-7gR" firstAttribute="top" secondItem="wQa-Qv-G3u" secondAttribute="top" id="evG-Vl-aPS"/>
+                <constraint firstItem="SPd-MO-9an" firstAttribute="centerX" secondItem="wQa-Qv-G3u" secondAttribute="centerX" id="fj0-IE-zLD"/>
+                <constraint firstItem="wQa-Qv-G3u" firstAttribute="trailing" secondItem="g83-Jf-7gR" secondAttribute="trailing" id="gSg-DQ-VRN"/>
+                <constraint firstItem="g83-Jf-7gR" firstAttribute="leading" secondItem="wQa-Qv-G3u" secondAttribute="leading" id="hvX-CA-xKm"/>
+                <constraint firstItem="g83-Jf-7gR" firstAttribute="bottom" secondItem="Ubg-d1-z0a" secondAttribute="bottom" id="pJx-Ej-3ps"/>
+                <constraint firstItem="Ubg-d1-z0a" firstAttribute="top" secondItem="wQa-Qv-G3u" secondAttribute="top" id="uUV-nH-Ucw"/>
+                <constraint firstItem="g83-Jf-7gR" firstAttribute="leading" secondItem="Ubg-d1-z0a" secondAttribute="leading" id="w36-AW-his"/>
+                <constraint firstItem="g83-Jf-7gR" firstAttribute="trailing" secondItem="Ubg-d1-z0a" secondAttribute="trailing" id="z9b-br-83V"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-133.33333333333334" y="128.57142857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_ptt_voice_blue" width="146" height="146"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

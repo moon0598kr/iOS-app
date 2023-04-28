@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "icControlSubSpeaker (non-optimized).png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icControlSubSpeaker (non-optimized)@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icControlSubSpeaker (non-optimized)@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

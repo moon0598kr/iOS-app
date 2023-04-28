@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_active_granted_mutual-aidgroup.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
