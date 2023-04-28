@@ -12,6 +12,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UISlider *ad;
+
 @end
 
 @implementation ViewController
@@ -28,7 +30,9 @@
     
     // Do any additional setup after loading the view.
     [_imageView setImage:[UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"Tree 0" ofType:@"pdf"]]];
-    
+//    [_ad setMinimumValueImage:[UIImage  ]]
+//    [_ad setMinimumTrackImage:@"스크린샷 2022-07-06 오전 9.47.01" forState:UIControlStateNormal];
+    [_ad setMaximumTrackImage:[[NSBundle mainBundle]pathForResource:@"스크린샷 2022-07-06 오전 9.47.01" ofType:@"png"] forState:UIControlStateNormal];
 }
 
 - (void)iOS:(NSNotification *)notif {

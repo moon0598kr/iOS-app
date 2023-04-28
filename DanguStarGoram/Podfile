@@ -7,4 +7,6 @@ target 'DanguStarGoram' do
 
   # Pods for DanguStarGoram
   pod 'Firebase/Analytics'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 end
